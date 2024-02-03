@@ -1,3 +1,0 @@
-1. HTML
-- Use Semantic HTML
-- Will need 2 containers within eaah other to hold the design. One to position the card in the center and another to work with the card
