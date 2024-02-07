@@ -6,7 +6,7 @@
     --background-minor: hsl(0, 0%, 100%);
 
 
-    --text-1:hsl(212, 21%, 14%);
+    --text-1:hsl(212, 83%, 14%);
     --text-2: hsl(228, 12%, 48%);
 }
 
@@ -19,7 +19,7 @@
 }
 
 .mainContainer{
-    max-width: 375px;
+    max-width: 405px;
     margin: 0 auto;
     margin-top: 8em;
     width: 95%;
@@ -36,9 +36,13 @@ body{
 }
 
 p{
-    font-size: 16px;
+    font-size: 17px;
     line-height: 1.6;
 
+}
+
+.product_img{
+    margin-bottom: 7px;
 }
 
 .product_type{
@@ -58,7 +62,11 @@ p{
 }
 
 .product_desc{
-    padding-right: 2.153em;
+    margin-bottom: 1.2em;
+}
+
+span{
+    text-transform: uppercase;
 }
 
 .discounted_price,
@@ -72,6 +80,8 @@ p{
     font-weight: 700;
     color: var(--primary-1);
     margin-right: .5em;
+    position: relative;
+    top: 4px;
 }
 
 .pricing{
@@ -81,6 +91,9 @@ p{
 
 .flex_box{
     background-color: var(--background-minor);
+    border-radius: 10px;
+    overflow: hidden;
+
 }
 
 .copy_box{
@@ -88,5 +101,20 @@ p{
 }
 
 .btn{
+    margin-top: 1em;
     display: block;
+    width: 100%;
+    background-color: var(--primary-1);
+    color: white;
+    border-radius: 9px;
+    border: 0;
+    padding: 1.1em;
+    font-size: 17px;
+}
+
+svg{
+    position: relative;
+    left: -10px;
+    bottom: -2px;
+
 }
